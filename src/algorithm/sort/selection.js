@@ -2,7 +2,7 @@
  * 選択ソート
  * @param array
  */
-var selection = function(array){
+var Selection = function(array){
     var len = array.length;
 
     var min = 0;
@@ -19,4 +19,5 @@ var selection = function(array){
         array[i]   = temp;
     }
 };
-module.exports = selection;
+
+module.exports = Selection;

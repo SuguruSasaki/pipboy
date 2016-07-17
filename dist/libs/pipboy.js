@@ -188,7 +188,7 @@
 	 * 選択ソート
 	 * @param array
 	 */
-	var selection = function(array){
+	var Selection = function(array){
 	    var len = array.length;
 
 	    var min = 0;
@@ -205,7 +205,8 @@
 	        array[i]   = temp;
 	    }
 	};
-	module.exports = selection;
+
+	module.exports = Selection;
 
 /***/ },
 /* 4 */
